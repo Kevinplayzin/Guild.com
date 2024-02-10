@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevinplayz Guild</title>
+    <style>
+        body {
+            background: url('hypixel-logo.jpg') center/cover fixed; /* Replace 'hypixel-logo.jpg' with the actual path to your logo */
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Red overlay */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 0, 0, 0.2);
+            z-index: -1;
+        }
+
+        /* Blue overlay */
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 255, 0.2);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .member-list {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin: 10px auto;
+        }
+
+        .hall-of-game {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin: 10px auto;
+            float: right;
+        }
+
+        .player-of-the-month {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin: 10px auto;
+            float: left;
+        }
+
+        footer {
+            background-color: rgba(255, 215, 0, 0.2);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kevinplayz Guild</h1>
+    </header>
+
+    <section class="member-list">
+        <h2>Member List</h2>
+        <!-- Add your member list here -->
+        <ul>
+            <li>Member 1</li>
+            <li>Member 2</li>
+            <!-- Add more members as needed -->
+        </ul>
+    </section>
+
+    <section class="hall-of-game">
+        <h2>Hall of Game</h2>
+        <!-- Add content for the Hall of Game -->
+        <p>Details about the achievements and games can go here.</p>
+    </section>
+
+    <section class="player-of-the-month">
+        <h2>Player of the Month</h2>
+        <!-- Add content for the Player of the Month -->
+        <p>Congratulations to the outstanding player of the month!</p>
+    </section>
+
+    <section>
+        <!-- Add your updates and announcements here -->
+        <h2>Updates and Announcements</h2>
+        <p>Stay tuned for the latest news and important announcements.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kevinplayz Guild. All rights reserved.</p>
+    </footer>
+</body>
+</html>
